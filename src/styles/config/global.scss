@@ -1,0 +1,19 @@
+@import '../variables/media.scss';
+@import '../variables/colors.scss';
+@import '../variables/utils.scss';
+
+:root {
+    line-height: 1;
+    color-scheme: light dark;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: $darkest;
+}

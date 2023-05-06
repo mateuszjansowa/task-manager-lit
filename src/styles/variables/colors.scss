@@ -1,0 +1,26 @@
+// colors
+$primary: hsl(220, 98%, 61%);
+$primary-gradient: linear-gradient(
+    320deg,
+    rgba(87, 221, 255, 1) 0%,
+    rgba(192, 88, 243, 1) 100%
+);
+
+$lighter: hsl(0, 0%, 98%);
+$light: hsl(236, 33%, 92%);
+$secondary: hsl(233, 11%, 84%);
+$darker: hsl(236, 9%, 61%);
+$darkest: hsl(235, 19%, 35%);
+
+@media (prefers-color-scheme: dark) {
+    html {
+        // dark theme
+        /* --blue-darkest: hsl(235, 21%, 11%);
+    --blue-dark: hsl(235, 24%, 19%);
+    --blue:  hsl(234, 39%, 85%);
+    --blue-light: hsl(236, 33%, 92%);
+    --blue-lighter: hsl(234, 11%, 52%);
+    --blue-lightest: hsl(233, 14%, 35%)
+    --blue: hsl(237, 14%, 26%) */
+    }
+}
