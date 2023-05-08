@@ -1,6 +1,7 @@
-@import './config/reset.scss';
-@import './config/global.scss';
+@use 'config';
 
-@import './app.scss';
-@import './title.scss';
-@import './header.scss';
+@use './app.scss';
+@use './title.scss';
+@use './header.scss';
+
+@use '../components/app-paper';

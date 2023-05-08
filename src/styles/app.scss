@@ -1,6 +1,8 @@
+@use '@styles/variables';
+
 .app {
     display: grid;
     grid-template-rows: 33% auto 10%;
     min-height: 100vh;
-    background-color: $light;
+    background-color: variables.$light;
 }
