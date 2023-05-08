@@ -36,6 +36,9 @@
       ],
       "@/*": [
         "src/*"
+      ],
+      "@app-input/*": [
+        "src/components/app-input/*"
       ]
     }
   },
