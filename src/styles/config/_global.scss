@@ -1,4 +1,6 @@
-@use '../variables/colors' as c;
+@use '@styles/variables';
+@use '../header';
+@use '../title';
 
 :root {
     line-height: 1;
@@ -13,5 +15,16 @@
 html {
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
-    color: c.$darkest;
+    color: variables.$darkest;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: variables.$light;
+}
+
+.app-paper__input-container {
+    width: 100%;
 }

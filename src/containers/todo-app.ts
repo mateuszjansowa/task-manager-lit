@@ -10,11 +10,26 @@ export class TodoApp extends LitElement {
         return html`<div class="app">
             <header class="header">
                 <h1 class="header__title">todo</h1>
+
                 <app-paper>
-                    <app-input .label="Create a new todo..." />
+                    <div class="app-paper__header">
+                        <app-checkbox
+                            .checked=${false}
+                            .disabled=${true}
+                        ></app-checkbox>
+                        <div class="app-paper__input-container">
+                            <app-input label="Create a new todo..." />
+                        </div>
+                    </div>
                 </app-paper>
             </header>
-            <main class="main"></main>
+            <main class="main">
+                <div class="main__container">
+                    <app-paper>
+                        <app-todo></app-todo>
+                    </app-paper>
+                </div>
+            </main>
             <footer class="footer"></footer>
         </div>`
     }

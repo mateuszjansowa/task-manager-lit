@@ -1,7 +1,7 @@
 @use 'config';
+@use 'mixins';
+@use 'variables';
 
-@use './app.scss';
-@use './title.scss';
-@use './header.scss';
-
-@use '../components/app-paper';
+@use './title';
+@use './header';
+@use './main';

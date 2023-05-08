@@ -1,4 +1,4 @@
-import { customElement } from 'lit/decorators.js'
+import { customElement, property } from 'lit/decorators.js'
 import { LitElement, unsafeCSS, html } from 'lit'
 import styles from './_index.scss?inline'
 
@@ -6,9 +6,14 @@ import styles from './_index.scss?inline'
 export default class AppInput extends LitElement {
     static styles = unsafeCSS(styles)
 
-    // todo: accept label prop
+    @property({ attribute: true })
+    label = ''
 
     protected render() {
-        return html`<input class="app-input" type="text" />`
+        return html`<input
+            class="app-input"
+            type="text"
+            placeholder=${this.label}
+        />`
     }
 }
