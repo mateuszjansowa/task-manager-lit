@@ -8,10 +8,9 @@
     color: variables.$darkest;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
-    line-height: 1em;
+    line-height: variables.$line-height;
     outline-color: variables.$primary;
     outline-offset: 0.25em;
-    padding: 0.25em 0;
     width: 100%;
 
     &::placeholder {

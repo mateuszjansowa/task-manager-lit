@@ -3,7 +3,7 @@
 @use '../title';
 
 :root {
-    line-height: 1;
+    line-height: variables.$line-height;
     color-scheme: light dark;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -16,6 +16,7 @@ html {
     font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
     color: variables.$darkest;
+    min-width: 300px;
 }
 
 .app {

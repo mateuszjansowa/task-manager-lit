@@ -10,7 +10,10 @@
         "test": "jest --watchAll"
     },
     "dependencies": {
-        "lit": "^2.6.1"
+        "@reduxjs/toolkit": "^1.9.5",
+        "lit": "^2.6.1",
+        "pwa-helpers": "^0.9.1",
+        "redux": "^4.2.1"
     },
     "devDependencies": {
         "@babel/preset-typescript": "^7.21.5",

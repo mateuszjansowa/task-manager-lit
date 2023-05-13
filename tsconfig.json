@@ -48,6 +48,18 @@
             ],
             "@icons/*": [
                 "./src/assets/icons/*"
+            ],
+            "@app-todo/*": [
+                "src/components/app-todo/*"
+            ],
+            "@types/*": [
+                "src/types/*"
+            ],
+            "@slices/*": [
+                "src/slices/*"
+            ],
+            "@store/*": [
+                "src/store/*"
             ]
         }
     },

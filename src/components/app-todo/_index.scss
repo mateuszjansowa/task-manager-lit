@@ -1,0 +1,22 @@
+@use '@styles/variables';
+@use '@styles/mixins';
+
+.app-todo {
+    align-items: center;
+    border-bottom: 1px solid variables.$light;
+    column-gap: 1em;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: variables.$padding;
+    user-select: none;
+
+    &__content {
+        @include mixins.mp-0();
+
+        &--checked {
+            text-decoration: line-through;
+            color: variables.$secondary;
+        }
+    }
+}

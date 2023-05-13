@@ -14,7 +14,6 @@
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 0.25em;
-        line-height: 1;
         margin-bottom: variables.$padding-s;
         text-transform: uppercase;
     }
@@ -25,4 +24,5 @@
     column-gap: 1em;
     display: flex;
     flex-wrap: nowrap;
+    padding: variables.$padding;
 }

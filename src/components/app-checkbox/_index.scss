@@ -18,11 +18,11 @@
         position: relative;
     }
 
-    &:checked + .app-checkbox__box {
+    &__box--checked {
         background: variables.$primary-gradient;
         &::after {
             position: absolute;
-            top: 50%;
+            top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
             content: url('@assets/icons/check.svg');
